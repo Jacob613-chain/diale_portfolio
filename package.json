@@ -1,12 +1,15 @@
 {
-  "name": "kinimatic",
-  "version": "0.1.0",
+  "name": "jose-juarez-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Jose Juarez - Senior Software Engineer Portfolio",
+  "author": "Jose Juarez <joseiscoding@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .next out"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",

@@ -6,6 +6,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { PrevButton, NextButton, usePrevNextButtons} from "./Carousel/EmblaCarouselArrowButtons"
 import useEmblaCarousel from "embla-carousel-react"
 import { Send } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
@@ -14,6 +15,12 @@ export const SectionTestimonials = () => {
     const subheadlineBoxRef = useRef()
     const titleRef = useRef()
     const emblaWrapperRef = useRef()
+    const router = useRouter()
+
+    // Handle contact button click
+    const handleContactClick = () => {
+        router.push('/contact');
+    };
 
     // GSAP ANIMATIONS
 
@@ -171,16 +178,27 @@ export const SectionTestimonials = () => {
                             <div className="testimonials-item-last-top">
                                 <p className="description white" >Be our next client in this section!</p>
                             </div>
-                            <p className="small-subheadline white" >Let us get you a coffee.</p>
-                            <div className="contact-button-wrapper">
-                                <button className="contact-button-white" >
+                            <p className="small-subheadline white hide-on-mobile" >Let us get you a coffee.</p>
+                            <div className="contact-button-wrapper" style={{marginTop: 'clamp(16px, 4vw, 24px)'}}>
+                                <button
+                                    className="contact-button-white"
+                                    onClick={handleContactClick}
+                                    style={{
+                                        padding: 'clamp(12px, 3vw, 16px) clamp(20px, 5vw, 32px)',
+                                        fontSize: 'clamp(14px, 3vw, 16px)',
+                                        borderRadius: 'clamp(8px, 2vw, 12px)',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.3s ease',
+                                        minHeight: '44px' // Minimum touch target for mobile
+                                    }}
+                                >
                                     <span>
                                         <span className="contact-button-container-white">
                                             <span className="contact-button-primary-white"></span>
                                             <span className="contact-button-complimentary-white"></span>
                                         </span>
                                     </span>
-                                    <span className="description black" >Book a call</span>
+                                    <span className="description black" style={{fontSize: 'clamp(14px, 3vw, 16px)'}}>Contact Me</span>
                                 </button>
                             </div>
                         </div>

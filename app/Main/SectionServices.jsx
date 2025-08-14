@@ -103,7 +103,7 @@ export const SectionServices = () => {
                   <span className="contact-button-complimentary-white"></span>
                 </span>
               </span>
-              <span className="description black" >Let's Connect</span>
+              <span className="description black" >Let&apos;s Connect</span>
             </button>
           </div>
         </div>

@@ -9,7 +9,6 @@ export const metadata = {
     title: "Jose Juarez | Senior Software Engineer & Full-Stack Developer",
     description: "7+ years building scalable, high-performance web applications using modern JavaScript frameworks and backend technologies. Skilled in AI integration, cloud-native architectures, and automation.",
     images: ["/images/jose-profile.webp"],
-
   }
 };
 
