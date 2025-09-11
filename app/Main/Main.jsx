@@ -10,6 +10,7 @@ import { SectionServices } from "./SectionServices";
 import { SectionProjects } from "./SectionProjects";
 import { SectionProjectsMobile } from "./SectionProjectsMobile";
 import { SectionKPI } from "./SectionKPI";
+import { SectionCTA } from "./SectionCTA";
 import "./main.css";
 import { useEffect, useLayoutEffect, useState } from 'react';
 import { useProgress } from "@react-three/drei";
@@ -57,6 +58,8 @@ const Main = () => {
       <SectionTestimonials />
       <div className="normal-padding" />
       <SectionKPI />
+      <div className="normal-padding" />
+      <SectionCTA />
       <div className="normal-padding" />
       <SectionFlower />
       <div className="normal-padding" />

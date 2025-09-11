@@ -128,9 +128,9 @@ export const SectionHero = () => {
             <div className="hero-textbox">
               <div className="hero-titlebox">
                 <div className="hero-titlebox-gradient" />
-                <h1 className="headline hero-headline white" ref={titleRef} >Jose Juarez <br /> Senior Software Engineer</h1>
+                <h1 className="headline hero-headline white" ref={titleRef} >Make More Money.<br />Automate the Boring. Build a Brand That Sells Itself.</h1>
               </div>
-              <p className="big-description grey opacity-blur" ref={descriptionRef} >7+ years building scalable, high-performance web applications using modern JavaScript frameworks and backend technologies. Skilled in AI integration, cloud-native architectures, and automation.</p>
+              <p className="big-description grey opacity-blur" ref={descriptionRef} >We design AI, automation, branding, and marketing systems that cut costs, save time, and create clients who buy again and again.</p>
             </div>
             <div className="hero-buttons-row">
               <button className="button button-transparent-border opacity-blur" ref={buttonRef1} onClick={handleViewProjects} >
@@ -195,7 +195,7 @@ export const SectionHero = () => {
         </div>
       </div>
       <div className="hover-cursor" ref={cursor}>
-        <p className="small-description white" >Jose</p>
+        <p className="small-description white" >Obsydia</p>
       </div>
     </section>
   );

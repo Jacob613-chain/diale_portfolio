@@ -48,7 +48,7 @@ export const Navigation = () => {
     <div className="navigation-wrapper">
         <div className="navigation-inside" ref={navigationBar} >
             <div className="navigation-inside-left">
-                <img src="/images/jose-logo.webp" className="navigation-inside-left-image" alt="" />
+                <img src="/images/obsydia-logo.webp" className="navigation-inside-left-image" alt="" />
             </div>
             <div className="navigation-inside-big" ref={navigationBarCenter} >
                 <p className="small-description white hover-text-white opacity" ref={navigationBarCenterRef1} onClick={() => handleNavigate('/')} >Home</p>
@@ -70,39 +70,28 @@ export const Navigation = () => {
             <div
                 className="navigation-inside-right-mobile"
                 onClick={toggleMobileMenu}
-                style={{
-                    cursor: 'pointer',
-                    padding: '10px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '4px',
-                    minWidth: '44px',
-                    minHeight: '44px',
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}
             >
-                <div className="navigation-inside-right-mobile-line" style={{
-                    width: '24px',
-                    height: '2px',
-                    backgroundColor: 'white',
-                    transition: 'all 0.3s ease',
-                    transform: isMobileMenuOpen ? 'rotate(45deg) translate(6px, 6px)' : 'none'
-                }} />
-                <div className="navigation-inside-right-mobile-line" style={{
-                    width: '24px',
-                    height: '2px',
-                    backgroundColor: 'white',
-                    transition: 'all 0.3s ease',
-                    opacity: isMobileMenuOpen ? '0' : '1'
-                }} />
-                <div className="navigation-inside-right-mobile-line" style={{
-                    width: '24px',
-                    height: '2px',
-                    backgroundColor: 'white',
-                    transition: 'all 0.3s ease',
-                    transform: isMobileMenuOpen ? 'rotate(-45deg) translate(6px, -6px)' : 'none'
-                }} />
+                <div
+                    className="navigation-inside-right-mobile-line"
+                    style={{
+                        transition: 'all 0.3s ease',
+                        transform: isMobileMenuOpen ? 'rotate(45deg) translate(6px, 6px)' : 'none'
+                    }}
+                />
+                <div
+                    className="navigation-inside-right-mobile-line"
+                    style={{
+                        transition: 'all 0.3s ease',
+                        opacity: isMobileMenuOpen ? '0' : '1'
+                    }}
+                />
+                <div
+                    className="navigation-inside-right-mobile-line"
+                    style={{
+                        transition: 'all 0.3s ease',
+                        transform: isMobileMenuOpen ? 'rotate(-45deg) translate(6px, -6px)' : 'none'
+                    }}
+                />
             </div>
         </div>
 

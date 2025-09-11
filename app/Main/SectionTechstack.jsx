@@ -157,11 +157,12 @@ export const SectionTechstack = () => {
     }, [emblaApi, setTweenNodes, setTweenFactor, tweenEffects]);
 
     const slideDescriptions = [
-        "Building scalable web applications with React, Next.js, and modern JavaScript frameworks for optimal performance.",
-        "Developing robust backend systems using Node.js, Python, and microservices architecture for enterprise solutions.",
-        "Implementing cloud-native solutions on AWS, Azure, and Google Cloud with automated CI/CD pipelines.",
-        "Creating responsive, accessible user interfaces with modern CSS, TypeScript, and component-based architecture.",
-        "Integrating AI/ML features and automation tools to enhance user experience and operational efficiency.",
+        "Manual data entry → Automated reports + CRM updates",
+        "Forgotten follow-ups → AI-driven lead nurturing",
+        "Inconsistent social media → Auto-generated branded content",
+        "High ad costs → AI-optimized marketing campaigns",
+        "Overwhelmed inbox → Smart email sorting + replies",
+        "Brand confusion → Clear brand systems + messaging that sells"
     ];
 
   return (
@@ -170,24 +171,24 @@ export const SectionTechstack = () => {
             <div className="textbox">
                 <div className="subheadline-box opacity-blur" ref={subheadlineBoxRef} >
                     <Layers className="subheadline-box-icon" />
-                    <h2 className="small-description grey" >Technical Skills</h2>
+                    <h2 className="small-description grey" >What We Replace & Upgrade with AI</h2>
                 </div>
                 <div className="titlebox">
                     <div className="titlebox-big-gradient" />
-                    <h1 className="subheadline white" ref={titleRef} >Modern Technologies For Building <br className="hide-on-mobile" /> Scalable, High-Performance Applications</h1>
+                    <h1 className="subheadline white" ref={titleRef} >From Messy to Money-Making</h1>
                 </div>
-                <p className="description grey" ref={descriptionRef} >Frontend, Backend, Cloud, and DevOps expertise across the full development lifecycle</p>
+                <p className="description grey" ref={descriptionRef} >We integrate everything—HubSpot, Salesforce, GoHighLevel, Slack, Gmail, Zapier, Meta Ads, and more—into one simple, automated growth machine.</p>
             </div>
             <div className="techstack-container">
                 <div className="techstack-item-big techstack-item-no-padding" ref={bentoBoxRef1} >
                     <div className="techstack-item-content">
                         <div className="techstack-item-content-center">
                             <div className="textbox">
-                                <h2 className="small-subheadline white hide-on-mobile" >Full-Stack Development <br /> Excellence</h2>
+                                <h2 className="small-subheadline white hide-on-mobile" >AI-Powered <br /> Transformation</h2>
                                 <button className="button hero-button button-transparent-border" onClick={handleVideoButtonClick} >
                                     <div className="button-content">
-                                        <span className="small-description">View Skills</span>
-                                        <span className="small-description">View Skills</span>
+                                        <span className="small-description">See Integration</span>
+                                        <span className="small-description">See Integration</span>
                                     </div>
                                     <div className="button-circle button-circle-white">
                                         <ArrowUpRight className="button-icon button-icon-180" />
@@ -209,34 +210,39 @@ export const SectionTechstack = () => {
                                     <div className="techstack-item-content-column-slider-carousel-row">
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/nextjs.svg" className="techstack-item-content-column-slider-item-image" alt="" />
+                                                <img src="/logos/zapier-logo.svg" className="techstack-item-content-column-slider-item-image" alt="Zapier" />
                                             </div>
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/threejs.svg" className="techstack-item-content-column-slider-item-image" alt="" />
+                                                <img src="/logos/make-logo.svg" className="techstack-item-content-column-slider-item-image" alt="Make.com" />
                                             </div>
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/vscode.svg" className="techstack-item-content-column-slider-item-image" alt="" />
+                                                <img src="/logos/n8n-logo.svg" className="techstack-item-content-column-slider-item-image" alt="n8n" />
                                             </div>
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/figma.png" className="techstack-item-content-column-slider-item-image" alt="" />
+                                                <img src="/logos/hubspot-logo.svg" className="techstack-item-content-column-slider-item-image" alt="HubSpot" />
                                             </div>
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/photoshop.svg" className="techstack-item-content-column-slider-item-image" alt="" />
+                                                <img src="/logos/salesforce-logo.svg" className="techstack-item-content-column-slider-item-image" alt="Salesforce" />
+                                            </div>
+                                        </div>
+                                        <div className="techstack-item-content-column-slider-item">
+                                            <div className="techstack-item-content-column-slider-item-child">
+                                                <img src="/logos/gohighlevel-logo.svg" className="techstack-item-content-column-slider-item-image" alt="GoHighLevel" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="techstack-item-content-column-textbox">
-                                <h2 className="small-subheadline white" >Technology Stack</h2>
+                                <h2 className="small-subheadline white" >Before → After</h2>
                                 <motion.p
                                     key={selectedIndex}
                                     className="description grey"
@@ -288,44 +294,44 @@ export const SectionTechstack = () => {
                 <div className="techstack-item-small bentoBoxRef3" ref={bentoBoxRef3} >
                     <div className="techstack-item-content-cards">
                         <div className="techstack-item-content-textbox">
-                            <h2 className="small-subheadline white" >Development Workflow</h2>
-                            <p className="description grey" >Agile development, continuous integration, and seamless collaboration tools.</p>
+                            <h2 className="small-subheadline white" >Integration Hub</h2>
+                            <p className="description grey" >All your tools connected and automated for seamless business operations.</p>
                         </div>
                         <div className="techstack-item-cards">
                             <div className="techstack-item-card techstack-item-card-1" >
                                 <div className="techstack-item-card-content techstack-item-card-content-1">
                                     <div className="techstack-item-card-content-top">
-                                        <p className="description white" >Slack</p>
-                                        <img src="/logos/slack.png" className="techstack-item-card-content-top-image" alt="" />
+                                        <p className="description white" >HubSpot</p>
+                                        <img src="/logos/hubspot-logo.svg" className="techstack-item-card-content-top-image" alt="HubSpot" />
                                     </div>
                                     <div className="techstack-item-card-content-bottom">
-                                        <p className="small-description grey" >Sprint planning completed. User stories prioritized, development tasks assigned.</p>
+                                        <p className="small-description grey" >CRM automatically updated with lead data. Follow-up sequences triggered.</p>
                                     </div>
-                                    <p className="small-description grey" >Current Sprint</p>
+                                    <p className="small-description grey" >Auto-Sync</p>
                                 </div>
                             </div>
                             <div className="techstack-item-card techstack-item-card-2" >
                                 <div className="techstack-item-card-content techstack-item-card-content-2">
                                     <div className="techstack-item-card-content-top">
-                                        <p className="description white" >Gmail</p>
-                                        <img src="/logos/gmail.png" className="techstack-item-card-content-top-image" alt="" />
+                                        <p className="description white" >Make.com</p>
+                                        <img src="/logos/make-logo.svg" className="techstack-item-card-content-top-image" alt="Make.com" />
                                     </div>
                                     <div className="techstack-item-card-content-bottom">
-                                        <p className="small-description grey" >Development is now 90% complete. Testing schedule shared with all stakeholders.</p>
+                                        <p className="small-description grey" >Complex workflows automated. Multi-step processes running seamlessly.</p>
                                     </div>
-                                    <p className="small-description grey" >Nov 6</p>
+                                    <p className="small-description grey" >Live</p>
                                 </div>
                             </div>
                             <div className="techstack-item-card techstack-item-card-3" >
                                 <div className="techstack-item-card-content">
                                     <div className="techstack-item-card-content-top">
-                                        <p className="description white" >Notion</p>
-                                        <img src="/logos/notion.png" className="techstack-item-card-content-top-image" alt="" />
+                                        <p className="description white" >Zapier</p>
+                                        <img src="/logos/zapier-logo.svg" className="techstack-item-card-content-top-image" alt="Zapier" />
                                     </div>
                                     <div className="techstack-item-card-content-bottom">
-                                        <p className="small-description grey" >Documentation updated. Project requirements and technical specs finalized.</p>
+                                        <p className="small-description grey" >All systems connected. Data flows seamlessly between platforms.</p>
                                     </div>
-                                    <p className="small-description grey" >Nov 7</p>
+                                    <p className="small-description grey" >Active</p>
                                 </div>
                             </div>
                         </div>

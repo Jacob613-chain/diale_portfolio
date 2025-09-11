@@ -20,6 +20,10 @@ export const SectionServices = () => {
   const overlayRef = useRef()
   const overlayWidgetRef = useRef()
   const overlayWidgetButtonRef = useRef()
+  const stepsRef = useRef()
+  const stepRefs = useRef([])
+  const stepTitleRefs = useRef([])
+  const stepDescRefs = useRef([])
   const [isOverlayVisible, setIsOverlayVisible] = useState(false)
   const router = useRouter()
 
@@ -38,6 +42,24 @@ export const SectionServices = () => {
 
     // button animation
     gsap.to(buttonRef.current, { opacity: 1, filter: 'blur(0px)', duration: 0.5, ease: 'power1', scrollTrigger: { trigger: buttonRef.current, start: "top 95%" }});
+
+    // steps animation
+    stepRefs.current.forEach((step, index) => {
+      if (step) {
+        gsap.to(step, {
+          opacity: 1,
+          filter: 'blur(0px)',
+          y: 0,
+          duration: 0.6,
+          ease: 'power2.out',
+          delay: index * 0.1,
+          scrollTrigger: {
+            trigger: step,
+            start: "top 90%"
+          }
+        });
+      }
+    });
   }, [])
 
   useEffect(() => {
@@ -88,13 +110,13 @@ export const SectionServices = () => {
         <div className="textbox">
           <div className="subheadline-box opacity-blur" ref={subheadlineBoxRef} >
             <Zap className="subheadline-box-icon" />
-            <h2 className="small-description grey" >Core Expertise</h2>
+            <h2 className="small-description grey" >Our Process</h2>
           </div>
           <div className="titlebox">
             <div className="titlebox-gradient" />
-            <h1 className="subheadline white" ref={titleRef} >Full-Stack Development Excellence</h1>
+            <h1 className="subheadline white" ref={titleRef} >Your Growth, Architected in 4 Steps</h1>
           </div>
-          <p className="description grey" ref={descriptionRef} >Specializing in modern web technologies, cloud architectures, and scalable solutions. <br /> From frontend frameworks to backend systems and DevOps automation.</p>
+          <p className="description grey" ref={descriptionRef} >We transform your business through strategic automation, intelligent systems, and seamless integration. <br /> From identifying opportunities to scaling your success.</p>
           <div className="contact-button-wrapper opacity-blur" ref={buttonRef} onClick={handleContactClick} >
             <button className="contact-button-white" >
               <span>
@@ -107,6 +129,49 @@ export const SectionServices = () => {
             </button>
           </div>
         </div>
+
+        <div className="services-steps" ref={stepsRef}>
+          <div className="services-step opacity-blur" ref={el => stepRefs.current[0] = el}>
+            <div className="services-step-number">
+              <span className="small-description white">01</span>
+            </div>
+            <div className="services-step-content">
+              <h3 className="small-subheadline white" ref={el => stepTitleRefs.current[0] = el}>Find the Gaps</h3>
+              <p className="description grey" ref={el => stepDescRefs.current[0] = el}>We uncover where you're losing money, wasting time, or missing brand opportunities.</p>
+            </div>
+          </div>
+
+          <div className="services-step opacity-blur" ref={el => stepRefs.current[1] = el}>
+            <div className="services-step-number">
+              <span className="small-description white">02</span>
+            </div>
+            <div className="services-step-content">
+              <h3 className="small-subheadline white" ref={el => stepTitleRefs.current[1] = el}>Design Your Blueprint</h3>
+              <p className="description grey" ref={el => stepDescRefs.current[1] = el}>We architect automation + marketing + branding strategies tailored to your business.</p>
+            </div>
+          </div>
+
+          <div className="services-step opacity-blur" ref={el => stepRefs.current[2] = el}>
+            <div className="services-step-number">
+              <span className="small-description white">03</span>
+            </div>
+            <div className="services-step-content">
+              <h3 className="small-subheadline white" ref={el => stepTitleRefs.current[2] = el}>Automate & Integrate</h3>
+              <p className="description grey" ref={el => stepDescRefs.current[2] = el}>We replace repetitive tasks with AI, and connect all your tools—CRM, email, ads, scheduling—into one seamless system.</p>
+            </div>
+          </div>
+
+          <div className="services-step opacity-blur" ref={el => stepRefs.current[3] = el}>
+            <div className="services-step-number">
+              <span className="small-description white">04</span>
+            </div>
+            <div className="services-step-content">
+              <h3 className="small-subheadline white" ref={el => stepTitleRefs.current[3] = el}>Scale & Sell More</h3>
+              <p className="description grey" ref={el => stepDescRefs.current[3] = el}>With automation running in the background, your brand and marketing do the heavy lifting while you focus on growth.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="services-content-container">
           <div className="services-content-container-left" />
           <div className="services-content-container-right" />

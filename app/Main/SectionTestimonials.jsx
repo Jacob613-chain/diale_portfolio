@@ -71,11 +71,11 @@ export const SectionTestimonials = () => {
         <div className="textbox testimonials-content-textbox">
             <div className="subheadline-box opacity-blur" ref={subheadlineBoxRef} >
                 <Send className="subheadline-box-icon" />
-                <h2 className="small-description grey" >Professional Journey</h2>
+                <h2 className="small-description grey" >Why Obsydia is a No-Brainer</h2>
             </div>
             <div className="titlebox">
                 <div className="titlebox-big-gradient" />
-                <h1 className="subheadline white" ref={titleRef} >7+ Years of Building <br />Innovative Software Solutions</h1>
+                <h1 className="subheadline white" ref={titleRef} >We’re Not Just Tech. We’re Your Growth Architects.</h1>
             </div>
         </div>
         <div className="opacity-blur" ref={emblaWrapperRef} >
@@ -89,9 +89,9 @@ export const SectionTestimonials = () => {
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Sarah Johnson</p>
-                                <p className="description grey" >Small Business Owner</p>
+                                <p className="description grey" >Real Estate Agency Owner</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >Obsydia didn't just automate tasks—they gave us a real brand, a marketing system, and time back to grow. Our sales pipeline has never looked better.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -102,9 +102,9 @@ export const SectionTestimonials = () => {
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >David Patel</p>
-                                <p className="description grey" >Project Manager</p>
+                                <p className="description grey" >Medical Clinic Director</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >We went from drowning in admin work to having a streamlined operation. The AI marketing alone saved us $5,000 monthly while doubling our patient bookings.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -115,9 +115,9 @@ export const SectionTestimonials = () => {
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Emily Carter</p>
-                                <p className="description grey" >Operations Manager</p>
+                                <p className="description grey" >E-commerce Founder</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >The brand transformation was incredible. Our conversion rate jumped 35% after they aligned our messaging, website, and email automation. Finally, everything works together.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -127,10 +127,10 @@ export const SectionTestimonials = () => {
                                 <img src="/images/pfp2.webp" alt="" />
                             </div>
                             <div className="testimonials-item-center">
-                                <p className="big-description white" >Sarah Johnson</p>
-                                <p className="description grey" >Small Business Owner</p>
+                                <p className="big-description white" >Marcus Rodriguez</p>
+                                <p className="description grey" >SaaS Startup CEO</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >They built us a growth machine. Lead nurturing runs on autopilot, our CRM stays updated, and we've scaled from 10 to 100 customers without adding staff. Game changer.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -140,10 +140,10 @@ export const SectionTestimonials = () => {
                                 <img src="/images/pfp2.webp" alt="" />
                             </div>
                             <div className="testimonials-item-center">
-                                <p className="big-description white" >David Patel</p>
-                                <p className="description grey" >Project Manager</p>
+                                <p className="big-description white" >Lisa Chen</p>
+                                <p className="description grey" >Marketing Agency Owner</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >I was skeptical about AI, but Obsydia made it simple. Our client campaigns now optimize themselves, and we're delivering better results with half the manual work.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -153,10 +153,10 @@ export const SectionTestimonials = () => {
                                 <img src="/images/pfp1.webp" alt="" />
                             </div>
                             <div className="testimonials-item-center">
-                                <p className="big-description white" >Emily Carter</p>
-                                <p className="description grey" >Operations Manager</p>
+                                <p className="big-description white" >James Thompson</p>
+                                <p className="description grey" >Restaurant Chain Owner</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >From scattered social media to a cohesive brand that actually sells—Obsydia transformed how customers see us. Revenue is up 40% and our team finally has time to focus on growth.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>
@@ -166,10 +166,10 @@ export const SectionTestimonials = () => {
                                 <img src="/images/pfp2.webp" alt="" />
                             </div>
                             <div className="testimonials-item-center">
-                                <p className="big-description white" >Sarah Johnson</p>
-                                <p className="description grey" >Small Business Owner</p>
+                                <p className="big-description white" >Amanda Foster</p>
+                                <p className="description grey" >Consulting Firm Partner</p>
                             </div>
-                            <p className="description white" >Since integrating this solution into our workflow, we have experienced a remarkable improvement in both efficiency and team collaboration, enabling us to complete tasks more quickly and communicate more.</p>
+                            <p className="description white" >The email automation alone pays for itself. Our follow-up sequences convert 3x better, and I never worry about leads falling through the cracks anymore. Pure ROI.</p>
                         </div>
                         <div className="testimonials-item-grid" />
                     </div>

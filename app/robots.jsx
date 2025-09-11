@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         disallow: '/private/',
       },
-      sitemap: 'https://jose-juarez-portfolio.vercel.app/sitemap.xml',
+      sitemap: 'https://obsydia-ai.vercel.app/sitemap.xml',
     }
   }

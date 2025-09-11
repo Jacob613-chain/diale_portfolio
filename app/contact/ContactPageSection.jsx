@@ -145,7 +145,7 @@ export const ContactPageSection = () => {
                 <div className="contact-content-item opacity-blur" ref={contactItem7} >
                   <p className="small-description grey" >Location</p>
                   <p className="description white" >California, US</p>
-                  <p className="description white" >Phone: +1 7605878472</p>
+                  <p className="description white" >Phone: +1-760-5878472</p>
                 </div>
               </div>
             </div>

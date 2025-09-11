@@ -1,9 +1,9 @@
 {
-  "name": "jose-juarez-portfolio",
+  "name": "obsydia-ai-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Jose Juarez - Senior Software Engineer Portfolio",
-  "author": "Jose Juarez <joseiscoding@gmail.com>",
+  "description": "Obsydia AI - AI-Powered Web Development Agency",
+  "author": "Obsydia AI <joseiscoding@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

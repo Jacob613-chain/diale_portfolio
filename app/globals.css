@@ -627,7 +627,7 @@ section {
 
 .headline {
   position: relative;
-  font-size: 5vw;
+  font-size: 3vw;
   margin: 0;
   font-weight: auto;
   line-height: 100%;
@@ -920,7 +920,7 @@ section {
 /* TEXTS */
 
 .headline {
-  font-size: 10vw;
+  font-size: 6vw;
 }
 
 .subheadline {
@@ -982,15 +982,20 @@ section {
   right: 4vw;
   height: 100%;
   width: 6.5vw;
-  padding: 3.5vw 0;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .navigation-inside-right-mobile-line {
-  width: 100%;
-  height: 1px;
+  width: 24px;
+  height: 2px;
   background-color: white;
 }
 

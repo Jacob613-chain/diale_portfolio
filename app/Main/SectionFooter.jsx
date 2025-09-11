@@ -41,9 +41,9 @@ export const SectionFooter = () => {
     <section className="footer">
       <div className="footer-content">
         <div className="footer-content-left" ref={topRef1} >
-          <img src="/images/jose-logo.webp" className="footer-logo" alt="" />
-          <h1 className="subheadline white" >Jose Juarez</h1>
-          <p className="description grey"  >Senior Software Engineer building scalable, high-performance web applications with modern technologies</p>
+          <img src="/images/obsydia-logo.webp" className="footer-logo" alt="" />
+          <h1 className="subheadline white" >Obsydia AI</h1>
+          <p className="description grey"  >The Architect of AI, Automation, Branding, and Marketing.</p>
         </div>
         <div className="footer-content-right" ref={topRef2} >
           <div className="footer-content-right-column">
@@ -67,13 +67,10 @@ export const SectionFooter = () => {
             <h2 className="description white" >Connect</h2>
             <div className="footer-column-contents">
               <div className="footer-column-contents-item" onClick={() => handleSocialClick('mailto:joseiscoding@gmail.com')}>
-                <p className="description grey hover-text-grey" style={{cursor: 'pointer'}}>Email Me</p>
+                <p className="description grey hover-text-grey" style={{cursor: 'pointer'}}>Email Us</p>
               </div>
-              <div className="footer-column-contents-item" onClick={() => handleSocialClick('https://github.com/jose-juarez')}>
-                <p className="description grey hover-text-grey" style={{cursor: 'pointer'}}>GitHub</p>
-              </div>
-              <div className="footer-column-contents-item" onClick={() => handleSocialClick('tel:+17605878472')}>
-                <p className="description grey hover-text-grey" style={{cursor: 'pointer'}}>Call Me</p>
+              <div className="footer-column-contents-item" onClick={() => handleSocialClick('tel:+1-760-5878472')}>
+                <p className="description grey hover-text-grey" style={{cursor: 'pointer'}}>Call Us</p>
               </div>
             </div>
           </div>
@@ -81,25 +78,25 @@ export const SectionFooter = () => {
       </div>
       <div className="footer-divider" ref={centerRef1} />
       <div className="footer-content-bottom">
-        <p className="small-description grey" ref={bottomRef1} >© 2024 Jose Juarez All Rights Reserved</p>
+        <p className="small-description grey" ref={bottomRef1} >© 2024 Obsydia AI All Rights Reserved</p>
         <div className="footer-socials" ref={bottomRef2} >
           <Instagram
             strokeWidth={1.25}
             className="footer-socials-icon"
             style={{cursor: 'pointer'}}
-            onClick={() => handleSocialClick('https://instagram.com/joseiscoding')}
+            onClick={() => handleSocialClick('https://instagram.com/obsydiaai')}
           />
           <Twitter
             strokeWidth={1.25}
             className="footer-socials-icon"
             style={{cursor: 'pointer'}}
-            onClick={() => handleSocialClick('https://twitter.com/joseiscoding')}
+            onClick={() => handleSocialClick('https://twitter.com/obsydiaai')}
           />
           <Linkedin
             strokeWidth={1.25}
             className="footer-socials-icon"
             style={{cursor: 'pointer'}}
-            onClick={() => handleSocialClick('https://linkedin.com/in/jose-juarez-dev')}
+            onClick={() => handleSocialClick('https://linkedin.com/company/obsydia-ai')}
           />
         </div>
       </div>

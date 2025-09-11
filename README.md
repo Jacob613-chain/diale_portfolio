@@ -1,10 +1,10 @@
-# Jose Juarez - Portfolio Website
+# Obsydia AI - Agency Website
 
-A modern, interactive portfolio website showcasing my 7+ years of experience as a Senior Software Engineer and Full-Stack Developer.
+A cutting-edge, interactive agency website showcasing our AI-powered development solutions, intelligent automation services, and innovative technology expertise.
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [https://jose-juarez-portfolio.vercel.app](https://jose-juarez-portfolio.vercel.app)
+Visit the live website: [https://obsydia.ai](https://obsydia.ai)
 
 ## 🛠️ Built With
 
@@ -38,8 +38,8 @@ Visit the live portfolio: [https://jose-juarez-portfolio.vercel.app](https://jos
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/jose-juarez-portfolio.git
-cd jose-juarez-portfolio
+git clone https://github.com/your-username/obsydia-ai-website.git
+cd obsydia-ai-website
 ```
 
 2. Install dependencies
@@ -68,18 +68,18 @@ vercel --prod
 
 ## 🎨 Customization
 
-The portfolio is built with modularity in mind. Key areas for customization:
+The website is built with modularity in mind. Key areas for customization:
 
-- **Content**: Update personal information in component files
+- **Content**: Update agency information in component files
 - **Styling**: Modify CSS variables and animations
 - **3D Models**: Replace Three.js models in `/app/Main/HeroModel/`
 - **Images**: Update assets in `/public/images/` and `/public/logos/`
 
 ## 📧 Contact
 
-Jose Juarez - [joseiscoding@gmail.com](mailto:joseiscoding@gmail.com)
+Obsydia AI - [joseiscoding@gmail.com](mailto:joseiscoding@gmail.com)
 
-Portfolio: [https://jose-juarez-portfolio.vercel.app](https://jose-juarez-portfolio.vercel.app)
+Website: [https://obsydia.ai](https://obsydia.ai)
 
 ---
 

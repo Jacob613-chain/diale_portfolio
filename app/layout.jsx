@@ -2,13 +2,13 @@ import "./globals.css";
 import { Navigation } from "./Navigation";
 
 export const metadata = {
-  title: "Jose Juarez | Senior Software Engineer & Full-Stack Developer",
-  description: "7+ years building scalable, high-performance web applications using modern JavaScript frameworks and backend technologies. Skilled in AI integration, cloud-native architectures, and automation.",
-  keywords: ["software engineer", "full-stack developer", "React", "Next.js", "Angular", "Vue.js", "Node.js", "Python", "AWS", "Azure", "Google Cloud", "microservices", "CI/CD", "JavaScript", "TypeScript", "web development", "cloud architecture", "DevOps", "automation", "AI integration", "scalable applications"],
+  title: "Obsydia AI | AI-Powered Web Development & Automation Agency",
+  description: "Obsydia AI specializes in cutting-edge AI development, intelligent automation, and scalable web applications. Transform your business with our innovative AI-powered solutions.",
+  keywords: ["AI development", "artificial intelligence", "web development agency", "automation", "machine learning", "React", "Next.js", "Angular", "Vue.js", "Node.js", "Python", "AWS", "Azure", "Google Cloud", "microservices", "CI/CD", "JavaScript", "TypeScript", "AI integration", "digital transformation", "scalable applications"],
   openGraph: {
-    title: "Jose Juarez | Senior Software Engineer & Full-Stack Developer",
-    description: "7+ years building scalable, high-performance web applications using modern JavaScript frameworks and backend technologies. Skilled in AI integration, cloud-native architectures, and automation.",
-    images: ["/images/jose-profile.webp"],
+    title: "Obsydia AI | AI-Powered Web Development & Automation Agency",
+    description: "Obsydia AI specializes in cutting-edge AI development, intelligent automation, and scalable web applications. Transform your business with our innovative AI-powered solutions.",
+    images: ["/images/obsydia-logo.webp"],
   }
 };
 

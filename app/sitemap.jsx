@@ -1,25 +1,25 @@
 export default function sitemap() {
     return [
       {
-        url: 'https://jose-juarez-portfolio.vercel.app/',
+        url: 'https://obsydia-ai.vercel.app/',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 1,
       },
       {
-        url: 'https://jose-juarez-portfolio.vercel.app/about',
+        url: 'https://obsydia-ai.vercel.app/about',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
       },
       {
-        url: 'https://jose-juarez-portfolio.vercel.app/works',
+        url: 'https://obsydia-ai.vercel.app/works',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
       },
       {
-        url: 'https://jose-juarez-portfolio.vercel.app/contact',
+        url: 'https://obsydia-ai.vercel.app/contact',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
