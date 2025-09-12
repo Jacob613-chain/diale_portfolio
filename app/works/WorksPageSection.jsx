@@ -358,44 +358,44 @@ export const WorksPageSection = () => {
               <div className="works-industries-divider" />
               <div className="works-industries-item" >
                 <div className="works-industries-item-left">
-                  <h2 className="small-subheadline white" >Supply Chain & Logistics</h2>
+                  <h2 className="small-subheadline white" >Real Estate & Property Management</h2>
                 </div>
                 <div className="works-industries-item-right">
                   <div className="works-industries-item-right-imagebox" ref={industryImageRef1} >
-                    <img src="/images/test14.webp" className="works-industries-item-right-image" alt="" />
+                    <img src="/images/mockup4.webp" className="works-industries-item-right-image" alt="" />
                   </div>
                 </div>
               </div>
               <div className="works-industries-divider" />
               <div className="works-industries-item">
                 <div className="works-industries-item-left">
-                  <h2 className="small-subheadline white" >Luxury Travel & Hospitality</h2>
+                  <h2 className="small-subheadline white" >Healthcare & Clinics</h2>
                 </div>
                 <div className="works-industries-item-right">
                   <div className="works-industries-item-right-imagebox" ref={industryImageRef2} >
-                    <img src="/images/test17.webp" className="works-industries-item-right-image" alt="" />
+                    <img src="/images/mockup12.webp" className="works-industries-item-right-image" alt="" />
                   </div>
                 </div>
               </div>
               <div className="works-industries-divider" />
               <div className="works-industries-item">
                 <div className="works-industries-item-left">
-                  <h2 className="small-subheadline white" >Real Estate & Development</h2>
+                  <h2 className="small-subheadline white" >Agencies & Startups</h2>
                 </div>
                 <div className="works-industries-item-right">
                   <div className="works-industries-item-right-imagebox" ref={industryImageRef3} >
-                    <img src="/images/test18.webp" className="works-industries-item-right-image" alt="" />
+                    <img src="/images/mockup7.webp" className="works-industries-item-right-image" alt="" />
                   </div>
                 </div>
               </div>
               <div className="works-industries-divider" />
               <div className="works-industries-item">
                 <div className="works-industries-item-left">
-                  <h2 className="small-subheadline white" >Technology & AI</h2>
+                  <h2 className="small-subheadline white" >Service Businesses</h2>
                 </div>
                 <div className="works-industries-item-right">
                   <div className="works-industries-item-right-imagebox" ref={industryImageRef4} >
-                    <img src="/images/test19.webp" className="works-industries-item-right-image" alt="" />
+                    <img src="/images/mockup11.webp" className="works-industries-item-right-image" alt="" />
                   </div>
                 </div>
               </div>
@@ -523,7 +523,7 @@ export const WorksPageSection = () => {
         </div>
 
         <div className="hover-cursor" ref={cursor}>
-          <p className="small-description white" >Jose</p>
+          <p className="small-description white" >Obsydia</p>
         </div>
 
       </section>

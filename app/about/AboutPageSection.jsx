@@ -18,13 +18,6 @@ export const AboutPageSection = () => {
     const lineRef = useRef()
     const itemRefs = useRef([]);
 
-    const expertiseItems = [
-        { service: "Real Estate & Property Management", specialization: "Automated lead generation", focus: "Branded campaigns", description: "Automated lead gen + branded campaigns" },
-        { service: "Healthcare & Clinics", specialization: "Digital workflow optimization", focus: "Patient-focused solutions", description: "Less paperwork, more patient-facing time" },
-        { service: "Agencies & Startups", specialization: "Growth acceleration", focus: "Brand & automation", description: "Faster delivery, sharper branding, automated growth engines" },
-        { service: "Service Businesses", specialization: "24/7 automation", focus: "Client support systems", description: "Client support + marketing that works 24/7 without staff overhead" },
-    ];
-
     useEffect(() => {
 
         // title animation
@@ -123,13 +116,9 @@ export const AboutPageSection = () => {
             </div>
             <div className="about-team">
                 <div className="about-team-container">
-                    {expertiseItems.map((item, index) => (
-                        <div className="about-team-item" key={index} ref={el => itemRefs.current[index] = el} >
-                            <p className="description white" >{item.service}</p>
-                            <p className="description white" >{item.specialization}</p>
-                            <p className="small-description grey" >{item.focus}</p>
-                        </div>
-                    ))}
+                    <div className="about-team-image-container">
+                        <img src="/images/workflow1.webp" className="about-team-workflow-image" alt="Workflow" />
+                    </div>
                 </div>
             </div>
             <div className="about-divider" />
