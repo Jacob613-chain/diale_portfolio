@@ -73,24 +73,7 @@ export const SectionShowreel = () => {
             <video src="/videos/ese.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
           </div>
         </div>
-        <div className="showreel-content-row">
-          <div className="showreel-content-row-item opacity-blur" ref={showreelItemRef1} >
-            <img src="/logos/awwwards.svg" className="showreel-content-row-item-image" alt="" />
-            <div className="showreel-content-row-item-grid" />
-          </div>
-          <div className="showreel-content-row-item opacity-blur" ref={showreelItemRef2} >
-            <img src="/logos/cssbestui.svg" className="showreel-content-row-item-image" alt="" />
-            <div className="showreel-content-row-item-grid" />
-          </div>
-          <div className="showreel-content-row-item opacity-blur" ref={showreelItemRef3} >
-            <img src="/logos/cssbestinnovation.svg" className="showreel-content-row-item-image" alt="" />
-            <div className="showreel-content-row-item-grid" />
-          </div>
-          <div className="showreel-content-row-item opacity-blur" ref={showreelItemRef4} >
-            <img src="/logos/cssbestux.svg" className="showreel-content-row-item-image" alt="" />
-            <div className="showreel-content-row-item-grid" />
-          </div>
-        </div>
+        
       </div>
     </section>
   );

@@ -210,7 +210,7 @@ export const SectionTechstack = () => {
                                     <div className="techstack-item-content-column-slider-carousel-row">
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/zapier-logo.svg" className="techstack-item-content-column-slider-item-image" alt="Zapier" />
+                                                <img src="/logos/zapier-icon-svgrepo-com.svg" className="techstack-item-content-column-slider-item-image" alt="Zapier" />
                                             </div>
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
@@ -235,7 +235,7 @@ export const SectionTechstack = () => {
                                         </div>
                                         <div className="techstack-item-content-column-slider-item">
                                             <div className="techstack-item-content-column-slider-item-child">
-                                                <img src="/logos/gohighlevel-logo.svg" className="techstack-item-content-column-slider-item-image" alt="GoHighLevel" />
+                                                <img src="/logos/gohighlevel-logo.jpeg" className="techstack-item-content-column-slider-item-image" alt="GoHighLevel" />
                                             </div>
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@ export const SectionTechstack = () => {
                                 <div className="techstack-item-card-content">
                                     <div className="techstack-item-card-content-top">
                                         <p className="description white" >Zapier</p>
-                                        <img src="/logos/zapier-logo.svg" className="techstack-item-card-content-top-image" alt="Zapier" />
+                                        <img src="/logos/zapier-icon-svgrepo-com.svg" className="techstack-item-card-content-top-image" alt="Zapier" />
                                     </div>
                                     <div className="techstack-item-card-content-bottom">
                                         <p className="small-description grey" >All systems connected. Data flows seamlessly between platforms.</p>
