@@ -87,7 +87,7 @@ export const SectionCTA = () => {
                                 <span className="small-description white">01</span>
                             </div>
                             <div className="cta-step-content">
-                                <Calendar className="cta-step-icon" />
+                                {/* <Calendar className="cta-step-icon" /> */}
                                 <p className="description white">Book your free AI audit</p>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ export const SectionCTA = () => {
                                 <span className="small-description white">02</span>
                             </div>
                             <div className="cta-step-content">
-                                <CheckCircle className="cta-step-icon" />
+                                {/* <CheckCircle className="cta-step-icon" /> */}
                                 <p className="description white">Get your custom AI + Branding + Marketing Blueprint</p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ export const SectionCTA = () => {
                                 <span className="small-description white">03</span>
                             </div>
                             <div className="cta-step-content">
-                                <ArrowUpRight className="cta-step-icon" />
+                                {/* <ArrowUpRight className="cta-step-icon" /> */}
                                 <p className="description white">Start saving time + making more money</p>
                             </div>
                         </div>

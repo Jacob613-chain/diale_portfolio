@@ -144,12 +144,12 @@ export const SectionKPI = () => {
                                 <div className="kpi-item-textbox">
                                     <div className="kpi-item-textbox-top">
                                         <div className="kpi-item-textbox-number">
-                                            <h2 className="headline kpi-item-textbox-number-text white" >Real Estate</h2>
+                                            <h2 className="headline kpi-item-textbox-number-text white" >120</h2>
                                             <div className="kpi-item-textbox-number-gradient" />
                                         </div>
-                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >& Property Management</h3>
+                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >hours/month</h3>
                                     </div>
-                                    <p className="description grey" >Automated lead gen + branded campaigns</p>
+                                    <p className="description grey" >Saved for a real estate firm by automating CRM + lead follow-ups</p>
                                 </div>
                                 <div className="kpi-item-button" >
                                     <Globe className="kpi-item-button-icon" />
@@ -160,12 +160,12 @@ export const SectionKPI = () => {
                                 <div className="kpi-item-textbox">
                                     <div className="kpi-item-textbox-top">
                                         <div className="kpi-item-textbox-number">
-                                            <h2 className="headline kpi-item-textbox-number-text white" >Healthcare</h2>
+                                            <h2 className="headline kpi-item-textbox-number-text white" >$5K</h2>
                                             <div className="kpi-item-textbox-number-gradient" />
                                         </div>
-                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >& Clinics</h3>
+                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >monthly savings</h3>
                                     </div>
-                                    <p className="description grey" >Less paperwork, more patient-facing time</p>
+                                    <p className="description grey" >Cut in admin + ad spend for a clinic with AI-driven marketing</p>
                                 </div>
                                 <div className="kpi-item-button" >
                                     <User className="kpi-item-button-icon" />
@@ -176,34 +176,19 @@ export const SectionKPI = () => {
                                 <div className="kpi-item-textbox">
                                     <div className="kpi-item-textbox-top">
                                         <div className="kpi-item-textbox-number">
-                                            <h2 className="headline kpi-item-textbox-number-text white" >Agencies</h2>
+                                            <h2 className="headline kpi-item-textbox-number-text white" >35%</h2>
                                             <div className="kpi-item-textbox-number-gradient" />
                                         </div>
-                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >& Startups</h3>
+                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >conversion boost</h3>
                                     </div>
-                                    <p className="description grey" >Faster delivery, sharper branding, automated growth engines</p>
+                                    <p className="description grey" >By aligning branding, website copy, and automated email journeys</p>
                                 </div>
                                 <div className="kpi-item-button" >
                                     <Cone className="kpi-item-button-icon" />
                                 </div>
                                 <div className="kpi-item-grid" />
                             </div>
-                            <div className="kpi-content-item" >
-                                <div className="kpi-item-textbox">
-                                    <div className="kpi-item-textbox-top">
-                                        <div className="kpi-item-textbox-number">
-                                            <h2 className="headline kpi-item-textbox-number-text white" >Service</h2>
-                                            <div className="kpi-item-textbox-number-gradient" />
-                                        </div>
-                                        <h3 className="small-subheadline kpi-item-textbox-top-text white" >Businesses</h3>
-                                    </div>
-                                    <p className="description grey" >Client support + marketing that works 24/7 without staff overhead</p>
-                                </div>
-                                <div className="kpi-item-button" >
-                                    <Send className="kpi-item-button-icon" />
-                                </div>
-                                <div className="kpi-item-grid" />
-                            </div>
+
                             <div className="kpi-item-padding" />
                         </div>
                     </div>
