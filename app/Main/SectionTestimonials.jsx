@@ -85,7 +85,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp1.webp" alt="" />
+                                <img src="/images/fp1.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Sarah Johnson</p>
@@ -98,7 +98,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp2.webp" alt="" />
+                                <img src="/images/fp2.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >David Patel</p>
@@ -111,7 +111,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp1.webp" alt="" />
+                                <img src="/images/fp3.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Emily Carter</p>
@@ -124,7 +124,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp2.webp" alt="" />
+                                <img src="/images/fp4.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Marcus Rodriguez</p>
@@ -137,7 +137,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp2.webp" alt="" />
+                                <img src="/images/fp5.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Lisa Chen</p>
@@ -150,7 +150,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp1.webp" alt="" />
+                                <img src="/images/fp6.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >James Thompson</p>
@@ -163,7 +163,7 @@ export const SectionTestimonials = () => {
                     <div className="testimonials-item" >
                         <div className="testimonials-item-content">
                             <div className="testimonials-item-profile">
-                                <img src="/images/pfp2.webp" alt="" />
+                                <img src="/images/fp7.jpg" alt="" />
                             </div>
                             <div className="testimonials-item-center">
                                 <p className="big-description white" >Amanda Foster</p>
