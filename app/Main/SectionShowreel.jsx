@@ -70,7 +70,7 @@ export const SectionShowreel = () => {
             <div className="background">
               <div className="trail"></div>
             </div>
-            <video src="/videos/ese.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
+            <video src="https://flowiseai.com/videos/agentflow.mp4" className="showreel-content-video" autoPlay="autoplay" muted playsInline={true} data-wf-ignore="true" preload="auto" loop />
           </div>
         </div>
         
