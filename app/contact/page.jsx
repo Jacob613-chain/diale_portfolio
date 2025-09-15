@@ -2,8 +2,8 @@ import "./contact.css";
 import { ContactPageSection } from "./ContactPageSection";
 
 export const metadata = {
-  title: 'Dialedweb | Get in Touch',
-  description: "Harnessing Cutting-Edge Visualization Technology to Transform Vision into Tailored Digital Reality.",
+  title: 'Obsydia AI | Get in Touch',
+  description: "Obsydia AI - AI-Powered Web Development Agency.",
   openGraph: {
     title: 'Get in Touch',
   },
