@@ -24,6 +24,10 @@ export const ContactPageSection = () => {
   const contactItem5 = useRef()
   const contactItem6 = useRef()
   const contactItem7 = useRef()
+
+  const handleSocialClick = (url) => {
+    window.open(url, '_blank');
+  };
   const imageRef = useRef()
   const imageWrapperRef = useRef()
 
@@ -121,22 +125,29 @@ export const ContactPageSection = () => {
                   </div>
                 </div>
                 <div className="contact-content-column-row">
-                  <div className="contact-content-small-item opacity-blur" ref={contactItem2} >
+                  <div className="contact-content-small-item opacity-blur" ref={contactItem2} onClick={() => handleSocialClick('tel:+1-760-5878472')} style={{cursor: 'pointer'}} >
                     <img src="/logos/phone.svg" className="contact-content-small-item-icon" alt="" />
-                    <p className="small-description grey" >Call</p>
+                    <p className="small-description grey hover-text-grey" >Call</p>
                   </div>
-                  <div className="contact-content-small-item opacity-blur" ref={contactItem3} >
+                  <div className="contact-content-small-item opacity-blur" ref={contactItem3} onClick={() => handleSocialClick('mailto:joseiscoding@gmail.com')} style={{cursor: 'pointer'}} >
                     <Mail strokeWidth={2.5} className="contact-content-small-item-icon" />
-                    <p className="small-description grey" >Email</p>
+                    <p className="small-description grey hover-text-grey" >Email</p>
                   </div>
-                  <div className="contact-content-small-item opacity-blur" ref={contactItem4} >
+                  <div className="contact-content-small-item opacity-blur" ref={contactItem4} onClick={() => handleSocialClick('https://linkedin.com/in/joseiscoding')} style={{cursor: 'pointer'}} >
                     <img src="/logos/linkedin.svg" className="contact-content-small-item-icon" alt="" />
-                    <p className="small-description grey" >LinkedIn</p>
+                    <p className="small-description grey hover-text-grey" >LinkedIn</p>
                   </div>
                 </div>
                 <div className="contact-content-item opacity-blur" ref={contactItem5} >
                   <p className="small-description grey" >Videocall</p>
-                  <p className="description white" >Book a videocall</p>
+                  <a
+                    href="https://calendly.com/joseiscoding/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="description white hover-text-white calendly-link"
+                  >
+                    Book a video call
+                  </a>
                 </div>
                 <div className="contact-content-item opacity-blur" ref={contactItem6} >
                   <p className="small-description grey" >Email</p>
