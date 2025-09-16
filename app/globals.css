@@ -468,6 +468,12 @@ section {
   padding-left: 3vh;
 }
 
+.contact-button-white .description {
+  position: relative;
+  z-index: 10;
+  pointer-events: none;
+}
+
 .contact-button-white:is(:hover, :focus-visible) {
 	--active: 1;
 }

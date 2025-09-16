@@ -60,11 +60,6 @@ export const SectionCTA = () => {
         window.open('https://calendly.com/obsydiaai/audit', '_blank');
     };
 
-    const handleCalculateSavings = () => {
-        // Add your calculator logic here - could open a modal or redirect
-        router.push('/contact');
-    };
-
     return (
         <section className="cta">
             <div className="cta-content">
@@ -117,11 +112,6 @@ export const SectionCTA = () => {
                 <div className="cta-buttons opacity-blur" ref={buttonsRef}>
                     <button className="cta-button-primary" onClick={handleBookAudit}>
                         <span className="description black">Book My Free Audit Now</span>
-                    </button>
-                    
-                    <button className="cta-button-secondary" onClick={handleCalculateSavings}>
-                        <Calculator className="cta-button-icon" />
-                        <span className="description white">Calculate My Savings</span>
                     </button>
                 </div>
 

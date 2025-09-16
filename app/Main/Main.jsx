@@ -38,8 +38,8 @@ const Main = () => {
   return (
     <ReactLenis root>
       <div className={`initial-loading-screen ${fadeOut ? "fade-out" : ""}`} >
-        <div className="loading-image-box" >
-          <img src="/images/loading.gif" className="loading-image" alt="Loading Image" />
+        <div className="loading-spinner-container" >
+          <div className="loading-spinner"></div>
         </div>
       </div>
       <SectionHero />
