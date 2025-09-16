@@ -57,7 +57,7 @@ export const SectionCTA = () => {
 
     const handleBookAudit = () => {
         // Add your booking logic here - could open a calendar widget or redirect
-        window.open('https://calendly.com/obsydiaai/audit', '_blank');
+        window.open('https://calendly.com/joseiscoding/30min', '_blank');
     };
 
     return (

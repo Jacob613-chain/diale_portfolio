@@ -100,7 +100,7 @@ export const SectionServices = () => {
         <div className="calendly-overlay-widget" ref={overlayWidgetRef} >
           <div className="calendly-overlay-widget-border" />
           <div className="calendly-overlay-widget-scrollbar-hider" />
-          <div className="calendly-inline-widget" data-url="https://calendly.com/dialedweb/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=9b92a2"/>
+          <div className="calendly-inline-widget" data-url="https://calendly.com/joseiscoding/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=9b92a2"/>
         </div>
         <div className="calendly-overlay-widget-button" ref={overlayWidgetButtonRef} onClick={toggleOverlay} >
           <X className="calendly-overlay-widget-button-icon" />
