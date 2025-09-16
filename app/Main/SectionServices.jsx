@@ -5,7 +5,7 @@ import CustomEase from "gsap/CustomEase";
 import SplitText from "gsap/src/SplitText";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { ArrowUpRight, Hand, Plus, X, Zap } from "lucide-react";
-import { useRouter } from "next/navigation";
+
 
 gsap.registerPlugin(SplitText, ScrollTrigger, CustomEase);
 
@@ -25,7 +25,7 @@ export const SectionServices = () => {
   const stepTitleRefs = useRef([])
   const stepDescRefs = useRef([])
   const [isOverlayVisible, setIsOverlayVisible] = useState(false)
-  const router = useRouter()
+
 
   useEffect(() => {
 
@@ -90,9 +90,7 @@ export const SectionServices = () => {
     setIsOverlayVisible(!isOverlayVisible);
   };
 
-  const handleContactClick = () => {
-    router.push('/contact');
-  };
+
 
   return (
     <section className="services">
@@ -117,7 +115,7 @@ export const SectionServices = () => {
             <h1 className="subheadline white" ref={titleRef} >Your Growth, Architected in 4 Steps</h1>
           </div>
           <p className="description grey" ref={descriptionRef} >We transform your business through strategic automation, intelligent systems, and seamless integration. <br /> From identifying opportunities to scaling your success.</p>
-          <div className="contact-button-wrapper opacity-blur" ref={buttonRef} onClick={handleContactClick} >
+          <div className="contact-button-wrapper opacity-blur" ref={buttonRef} onClick={toggleOverlay} >
             <button className="contact-button-white" >
               <span>
                 <span className="contact-button-container-white">
